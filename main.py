@@ -1,5 +1,5 @@
 import os
-from profile import ProfileGenerator
+from profile import ResumeGenerator
 from summary import SummaryGenerator
 from competencies import CompetenciesGenerator
 from experience import ExperienceGenerator
@@ -35,7 +35,7 @@ def main(excel_file):
         %-------------------------------------------------------------------------------
         """)
         # Assuming ProfileGenerator writes directly to the main_resume.tex
-        profile_generator = ProfileGenerator(excel_file, main_resume_path)
+        profile_generator = ResumeGenerator(excel_file, main_resume_path)
         profile_generator.generate_tex()
 
         f.write(r"""
