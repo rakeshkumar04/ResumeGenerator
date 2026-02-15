@@ -225,13 +225,3 @@ Batch execution stops if any file fails.
 * JSON/CSV input support
 * Cloud resume storage
 * Theme customization
-
----
-
-## Author
-
-**Rakesh Kumar R**
-
-Developer & Designer
-
----
